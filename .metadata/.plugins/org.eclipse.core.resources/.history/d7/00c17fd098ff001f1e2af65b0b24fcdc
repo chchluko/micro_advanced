@@ -1,0 +1,11 @@
+package com.proa.app.controller;
+
+@RestController
+@RequestMapping("/client")
+public class MicroserviceController {
+	
+	@Autowired
+	private IService service;
+	
+
+}
