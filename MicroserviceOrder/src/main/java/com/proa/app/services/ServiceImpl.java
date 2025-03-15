@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import com.proa.app.dao.IOrderDAO;
 import com.proa.app.entities.Order;
 import com.proa.app.exceptions.ClientNotFoundException;
+import com.proa.app.exceptions.OrderNotFoundException;
 import com.proa.app.feign.IFeignClientM;
 
 import feign.FeignException.NotFound;
@@ -49,9 +50,13 @@ public class ServiceImpl implements IServece {
 	}
 
 	@Override
-	public boolean delete(long id) {
-
-		return false;
+	public boolean delete(long id) throws OrderNotFoundException {
+		if(orderDAO.existsById(id)) {
+			orderDAO.deleteById(id);
+		return true;
+		}
+		
+		throw new OrderNotFoundException("Orden " + id + " no encontrada");
 	}
 
 }

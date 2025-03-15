@@ -9,7 +9,7 @@ import com.proa.app.entities.Client;
 @FeignClient(name = "micro-client", url = "http://localhost:8081/client")
 public interface IFeignClientM {
 	
-	@GetMapping
+	@GetMapping("/id")
 	Client selectById(@RequestParam long id);
 
 }
