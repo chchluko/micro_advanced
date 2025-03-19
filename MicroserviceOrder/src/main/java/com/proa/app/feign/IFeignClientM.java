@@ -6,10 +6,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import com.proa.app.entities.Client;
 
-@FeignClient(name = "micro-client", url = "http://localhost:8081/client")
+//sin eutreka
+//@FeignClient(name = "micro-client", url = "http://localhost:8081/client")
+@FeignClient(name = "micro-client")
 public interface IFeignClientM {
 	
-	@GetMapping("/id")
+	@GetMapping("/client/id")
 	Client selectById(@RequestParam long id);
 
 }
