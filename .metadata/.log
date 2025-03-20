@@ -568,3 +568,510 @@ java.lang.NullPointerException: Cannot invoke "org.eclipse.core.resources.IFile.
 
 !ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-19 19:32:57.125
 !MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/Netec/Desktop/proyectos_curso/MicroserviceGateway/src/main/java/com/proa/app/LogUsernameFilter.java
+!SESSION 2025-03-20 00:59:28.236 -----------------------------------------------
+eclipse.buildId=4.34.0.202502131954
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-20 00:59:31.602
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-20 00:59:34.025
+!MESSAGE Logback config file: C:\Users\Netec\Desktop\proyectos_curso\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-03-20 00:59:34.935
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-20 00:59:34.935
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-03-20 00:59:35.414
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-20 00:59:35.414
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-03-20 00:59:41.752
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Netec'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 00:59:42.536
+!MESSAGE Boot project ADDED: MicroserviceClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 00:59:42.538
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 00:59:42.712
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 00:59:42.714
+!MESSAGE Boot project ADDED: MicroserviceEureka
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 00:59:42.715
+!MESSAGE Boot project ADDED: MicroserviceGateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 00:59:42.717
+!MESSAGE Boot project ADDED: MicroserviceOrder
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-20 00:59:42.800
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 00:59:42.804
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Software\sts-4.28.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/Netec/Desktop/proyectos_curso/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1742453982801
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Software\sts-4.28.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.60.0.202502031607\servers\spring-boot-language-server\spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 00:59:42.805
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 00:59:42.819
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 4992
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-20 00:59:42.838
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-20 00:59:43.689
+!MESSAGE [Info] No proxy data found
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 00:59:47.439
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.276.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 00:59:47.907
+!MESSAGE [Info]	[certificates] Removed 13 expired certificates
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-20 01:04:40.941
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-20 01:04:40.949
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:04:44.280
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.276.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:04:45.105
+!MESSAGE [Info]	[certificates] Removed 13 expired certificates
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-20 01:06:41.460
+!MESSAGE [Info] Java format preference cache for MicroserviceGateway is updated. key: org.eclipse.jdt.core.formatter.tabulation.char, new value: tab
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-20 01:06:41.461
+!MESSAGE [Info] Java format preference cache for MicroserviceGateway is updated. key: org.eclipse.jdt.core.formatter.tabulation.size, new value: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:06:41.942
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/chat-v5/completions] took 232.04529999988154 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:06:41.943
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [f9a8149e-925f-4820-8cfb-cdbea4a1cc6e] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:06:41.944
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:06:42.186
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/chat-v5/completions] took 131.61750000016764 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:06:42.188
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:06:42.190
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [ae474ecc-c8a8-4421-acb4-baf3ccfb2c17] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:06:42.694
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:06:42.694
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [6c5e253b-880c-4e61-b6c0-d58b2ea548cd] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:06:42.695
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/chat-v5/completions] took 101.68000000016764 ms
+
+!ENTRY org.eclipse.ui 4 0 2025-03-20 01:06:42.774
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4903)
+	at org.eclipse.swt.SWT.error(SWT.java:4837)
+	at org.eclipse.swt.SWT.error(SWT.java:4808)
+	at org.eclipse.swt.custom.StyledText.getLineAtOffset(StyledText.java:3585)
+	at com.microsoft.copilot.eclipse.ui.utils.SwtUtils.lambda$2(SwtUtils.java:143)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-03-20 01:06:45.912
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:06:55.599
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/chat-v5/completions] took 95.43630000017583 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:06:55.599
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:06:55.600
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [e1f49bc5-df09-4585-a86f-4eaa96d55301] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:06:55.878
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/chat-v5/completions] took 137.3413000004366 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:06:55.879
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:06:55.879
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [c42bf5b2-701e-401c-aede-e5fc1700cb17] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:06:56.375
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:06:56.375
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/chat-v5/completions] took 113.08389999996871 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:06:56.376
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [9289c561-f74c-478e-a6c2-da3bc61c7030] model deployment ID: []
+
+!ENTRY org.eclipse.ui 4 0 2025-03-20 01:06:56.660
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4903)
+	at org.eclipse.swt.SWT.error(SWT.java:4837)
+	at org.eclipse.swt.SWT.error(SWT.java:4808)
+	at org.eclipse.swt.custom.StyledText.getLineAtOffset(StyledText.java:3585)
+	at com.microsoft.copilot.eclipse.ui.utils.SwtUtils.lambda$2(SwtUtils.java:143)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:07:28.942
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/chat-v5/completions] took 237.5722000002861 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:07:28.943
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [01f7f54a-5270-4d38-8ba9-6ccce47674fc] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:07:28.943
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:08:37.754
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/chat-v5/completions] took 130.71560000022873 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:08:37.755
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [f6c76315-9c96-40b2-a535-ec7d80454cf4] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:08:37.755
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:08:43.352
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/chat-v5/completions] took 123.4769999999553 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:08:43.353
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [a6fe87e7-3a0d-4d35-9c89-d884e319841c] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:08:43.353
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:08:48.986
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/chat-v5/completions] took 153.04080000007525 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:08:48.987
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [3ba364a9-1f64-495a-b2d4-fdb3dcb2ccd8] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:08:48.988
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:08:57.661
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/chat-v5/completions] took 106.48950000014156 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:08:57.661
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [f4da8d3f-42f3-4b51-9e80-fc3f6c325190] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:08:57.662
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:09:00.575
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:09:00.575
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [e0ef0168-d40f-4bd1-a02a-6a055ca85777] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:09:00.577
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/chat-v5/completions] took 116.20179999992251 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:09:07.120
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [c2fa062b-ddce-42a0-bc4c-1e808f8b0c56] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:09:07.121
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:09:07.122
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/chat-v5/completions] took 208.36909999977797 ms
+
+!ENTRY org.eclipse.ui 4 0 2025-03-20 01:09:36.919
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds
+	at org.eclipse.swt.SWT.error(SWT.java:4903)
+	at org.eclipse.swt.SWT.error(SWT.java:4837)
+	at org.eclipse.swt.SWT.error(SWT.java:4808)
+	at org.eclipse.swt.custom.StyledText.getLineAtOffset(StyledText.java:3585)
+	at com.microsoft.copilot.eclipse.ui.utils.SwtUtils.lambda$2(SwtUtils.java:143)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:09:36.971
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/chat-v5/completions] took 115.4218000001274 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:09:36.972
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:09:36.973
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [27598256-f801-44ea-9724-2b876a3ba021] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:18:14.976
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/chat-v5/completions] took 291.78209999995306 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:18:14.977
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [5176040a-87cd-4e0d-ac4a-92ff3e7ee60b] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:18:14.977
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.jface 2 0 2025-03-20 01:22:19.208
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-03-20 01:22:19.208
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-20 01:26:52.656
+!MESSAGE [Info] Document is null for editor: SecurityConfig.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-20 01:26:52.658
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/Netec/Desktop/proyectos_curso/MicroserviceGateway/src/main/java/com/proa/app/SecurityConfig.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-20 01:26:53.707
+!MESSAGE [Info] Document is null for editor: LogUsernameFilter.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-20 01:26:53.708
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/Netec/Desktop/proyectos_curso/MicroserviceGateway/src/main/java/com/proa/app/LogUsernameFilter.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-20 01:26:55.564
+!MESSAGE [Info] Document is null for editor: MicroserviceGatewayApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-20 01:26:55.565
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/Netec/Desktop/proyectos_curso/MicroserviceGateway/src/main/java/com/proa/app/MicroserviceGatewayApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-20 01:53:02.742
+!MESSAGE [Info] Language ID not found for extension: properties
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:53:05.330
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/chat-v5/completions] took 197.4112999998033 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:53:05.331
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 01:53:05.331
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [53f92c19-9389-40bb-b151-f9fc7197b948] model deployment ID: []
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-20 01:55:51.147
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-20 01:55:51.149
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/Netec/Desktop/proyectos_curso/MicroserviceGateway/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-20 01:55:55.679
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-20 01:55:55.680
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/Netec/Desktop/proyectos_curso/MicroserviceOrder/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-20 02:02:49.983
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-20 02:02:49.990
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 02:02:52.165
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.276.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 02:02:52.869
+!MESSAGE [Info]	[certificates] Removed 13 expired certificates
+!SESSION 2025-03-20 02:13:44.498 -----------------------------------------------
+eclipse.buildId=4.34.0.202502131954
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-20 02:13:48.543
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-20 02:13:50.461
+!MESSAGE Logback config file: C:\Users\Netec\Desktop\proyectos_curso\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-03-20 02:13:51.307
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-20 02:13:51.307
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-03-20 02:13:51.743
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-20 02:13:51.743
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-03-20 02:13:57.708
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Netec'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 02:13:58.336
+!MESSAGE Boot project ADDED: MicroserviceClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 02:13:58.337
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 02:13:58.527
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 02:13:58.529
+!MESSAGE Boot project ADDED: MicroserviceEureka
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 02:13:58.530
+!MESSAGE Boot project ADDED: MicroserviceGateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 02:13:58.532
+!MESSAGE Boot project ADDED: MicroserviceOrder
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-20 02:13:58.600
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 02:13:58.601
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Software\sts-4.28.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/Netec/Desktop/proyectos_curso/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1742458438599
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Software\sts-4.28.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.60.0.202502031607\servers\spring-boot-language-server\spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-20 02:13:58.603
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-20 02:13:58.615
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 11172
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-20 02:13:58.627
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-20 02:13:59.316
+!MESSAGE [Info] No proxy data found
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 02:14:05.731
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.276.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-20 02:14:06.419
+!MESSAGE [Info]	[certificates] Removed 13 expired certificates

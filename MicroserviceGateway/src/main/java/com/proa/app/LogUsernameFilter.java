@@ -14,23 +14,28 @@ import reactor.core.publisher.Mono;
 
 @Component
 public class LogUsernameFilter implements WebFilter {
-	private static final Logger LOGGER = LoggerFactory.getLogger(LogUsernameFilter.class);
+	private static final Logger LOGGER=LoggerFactory.getLogger(LogUsernameFilter.class);
 
 	@Override
 	public Mono<Void> filter(ServerWebExchange exchange, WebFilterChain chain) {
-		return ReactiveSecurityContextHolder.getContext().flatMap(context -> {
-			Authentication authentication = context.getAuthentication();
-			if (authentication != null && authentication.isAuthenticated()) {
-				if (authentication.getPrincipal() instanceof Jwt) {
-					String username = ((Jwt) authentication.getPrincipal()).getClaimAsString("preferred_username");
-
-					LOGGER.info("USER AUTH {}" + username);
-				} else {
-					LOGGER.warn("JWT no contiene el campo preferred_username");
-				}
-			}
-			return chain.filter(exchange);
-		}).switchIfEmpty(chain.filter(exchange));
+		
+		return ReactiveSecurityContextHolder.getContext()
+				.flatMap(context->{
+					Authentication auth=context.getAuthentication();
+					if(auth!=null && auth.isAuthenticated()) {
+						if(auth.getPrincipal() instanceof Jwt) {
+							
+							String username=((Jwt)auth.getPrincipal()).getClaimAsString("preferred_username");
+							LOGGER.info("USER AUTH {}", username);
+						}else {
+							LOGGER.warn("JWT doesn't contains preferred_username");
+						}
+						
+					}
+					return chain.filter(exchange);
+					
+					
+				}).switchIfEmpty(chain.filter(exchange));
 	}
 
 }
