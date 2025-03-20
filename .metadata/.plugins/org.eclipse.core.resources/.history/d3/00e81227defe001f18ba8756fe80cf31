@@ -1,5 +1,0 @@
-package com.proa.app.dao;
-
-public interface IClientDAO {
-
-}
