@@ -1915,3 +1915,144 @@ Contains: Missing org.springframework.cloud:spring-cloud-starter-config:jar:java
 
 !ENTRY org.eclipse.lsp4e 1 0 2025-03-20 19:04:20.427
 !MESSAGE [Info]	[fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/chat-v5/completions] took 122.86250000074506 ms
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-20 19:36:00.075
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-20 19:36:00.076
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/Netec/Desktop/proyectos_curso/MicroserviceClient/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-20 19:36:00.089
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-20 19:36:00.090
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/Netec/Desktop/proyectos_curso/MicroserviceOrder/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-20 19:36:00.115
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-20 19:36:00.116
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/Netec/Desktop/proyectos_curso/MicroserviceGateway/src/main/resources/application.properties
+!SESSION 2025-03-21 15:49:52.943 -----------------------------------------------
+eclipse.buildId=4.34.0.202502131954
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-21 15:49:57.266
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-21 15:50:01.293
+!MESSAGE Logback config file: C:\Users\Netec\Desktop\proyectos_curso\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-03-21 15:50:02.775
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-21 15:50:02.775
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-03-21 15:50:03.884
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-21 15:50:03.884
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-21 15:50:11.230
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Software\sts-4.28.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/Netec/Desktop/proyectos_curso/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1742593811228
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Software\sts-4.28.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.60.0.202502031607\servers\spring-boot-language-server\spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-21 15:50:11.232
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-21 15:50:11.283
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 12132
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-21 15:50:13.344
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-03-21 15:50:13.375
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Netec'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-21 15:50:13.392
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-21 15:50:14.141
+!MESSAGE Boot project ADDED: MicroserviceClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-21 15:50:14.142
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-21 15:50:14.143
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-21 15:50:14.161
+!MESSAGE Boot project ADDED: MicroserviceConfig
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-21 15:50:14.174
+!MESSAGE Boot project ADDED: MicroserviceEureka
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-21 15:50:14.179
+!MESSAGE [Info] No proxy data found
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-21 15:50:14.189
+!MESSAGE Boot project ADDED: MicroserviceGateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-21 15:50:14.225
+!MESSAGE Boot project ADDED: MicroserviceOrder
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-21 15:50:19.553
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.276.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-03-21 15:50:19.554
+!MESSAGE [Info]	[certificates] Removed 13 expired certificates
+
+!ENTRY org.eclipse.jface 2 0 2025-03-21 16:14:41.089
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-03-21 16:14:41.089
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-21 16:38:44.255
+!MESSAGE Classpath changed for project: MicroserviceGateway
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-21 20:00:29.514
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-21 20:00:29.518
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/Netec/Desktop/proyectos_curso/MicroserviceGateway/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-21 20:00:29.555
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-03-21 20:00:29.555
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/Netec/Desktop/proyectos_curso/MicroserviceConfig/src/main/resources/application.properties
